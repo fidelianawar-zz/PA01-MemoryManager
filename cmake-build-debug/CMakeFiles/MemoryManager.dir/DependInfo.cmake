@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/Allocator.cpp.o"
+  "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/BestFit.cpp.o"
   "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/CustomMemoryManager.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.o"
+  "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/FirstFit.cpp.o"
   "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/algoNew.cpp.o"
   "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/main.cpp" "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir/main.cpp.o"
   )

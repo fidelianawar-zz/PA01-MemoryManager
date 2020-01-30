@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/MemoryManager.dir/all:
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/depend
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target MemoryManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target MemoryManager"
 .PHONY : CMakeFiles/MemoryManager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MemoryManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MemoryManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/MemoryManager.dir/rule

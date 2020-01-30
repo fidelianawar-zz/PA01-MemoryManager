@@ -80,13 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp">
+			<Option target="MemoryManager"/>
+		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.h">
+			<Option target="MemoryManager"/>
+		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp">
+			<Option target="MemoryManager"/>
+		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.h">
+			<Option target="MemoryManager"/>
+		</Unit>
 		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/CustomMemoryManager.cpp">
 			<Option target="MemoryManager"/>
 		</Unit>
 		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/CustomMemoryManager.h">
 			<Option target="MemoryManager"/>
 		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp">
+			<Option target="MemoryManager"/>
+		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.h">
+			<Option target="MemoryManager"/>
+		</Unit>
 		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h">
+			<Option target="MemoryManager"/>
+		</Unit>
+		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Singleton.h">
 			<Option target="MemoryManager"/>
 		</Unit>
 		<Unit filename="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/SpecialPoint.h">

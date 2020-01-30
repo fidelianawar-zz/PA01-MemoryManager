@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
+cstddef
+-
+iostream
+-
+algoNew.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/SpecialPoint.h
+Point.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
+cstddef
+-
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/main.cpp
+iostream
+-
+algoNew.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
+Point.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
+SpecialPoint.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/SpecialPoint.h
+

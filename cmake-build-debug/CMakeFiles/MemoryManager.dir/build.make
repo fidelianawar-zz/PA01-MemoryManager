@@ -96,11 +96,53 @@ CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/CustomMemoryManager.cpp" -o CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.s
 
+CMakeFiles/MemoryManager.dir/Allocator.cpp.o: CMakeFiles/MemoryManager.dir/flags.make
+CMakeFiles/MemoryManager.dir/Allocator.cpp.o: ../Allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MemoryManager.dir/Allocator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MemoryManager.dir/Allocator.cpp.o -c "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp"
+
+CMakeFiles/MemoryManager.dir/Allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MemoryManager.dir/Allocator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp" > CMakeFiles/MemoryManager.dir/Allocator.cpp.i
+
+CMakeFiles/MemoryManager.dir/Allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MemoryManager.dir/Allocator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp" -o CMakeFiles/MemoryManager.dir/Allocator.cpp.s
+
+CMakeFiles/MemoryManager.dir/BestFit.cpp.o: CMakeFiles/MemoryManager.dir/flags.make
+CMakeFiles/MemoryManager.dir/BestFit.cpp.o: ../BestFit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MemoryManager.dir/BestFit.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MemoryManager.dir/BestFit.cpp.o -c "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp"
+
+CMakeFiles/MemoryManager.dir/BestFit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MemoryManager.dir/BestFit.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp" > CMakeFiles/MemoryManager.dir/BestFit.cpp.i
+
+CMakeFiles/MemoryManager.dir/BestFit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MemoryManager.dir/BestFit.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp" -o CMakeFiles/MemoryManager.dir/BestFit.cpp.s
+
+CMakeFiles/MemoryManager.dir/FirstFit.cpp.o: CMakeFiles/MemoryManager.dir/flags.make
+CMakeFiles/MemoryManager.dir/FirstFit.cpp.o: ../FirstFit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MemoryManager.dir/FirstFit.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MemoryManager.dir/FirstFit.cpp.o -c "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp"
+
+CMakeFiles/MemoryManager.dir/FirstFit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MemoryManager.dir/FirstFit.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp" > CMakeFiles/MemoryManager.dir/FirstFit.cpp.i
+
+CMakeFiles/MemoryManager.dir/FirstFit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MemoryManager.dir/FirstFit.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp" -o CMakeFiles/MemoryManager.dir/FirstFit.cpp.s
+
 # Object files for target MemoryManager
 MemoryManager_OBJECTS = \
 "CMakeFiles/MemoryManager.dir/main.cpp.o" \
 "CMakeFiles/MemoryManager.dir/algoNew.cpp.o" \
-"CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.o"
+"CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.o" \
+"CMakeFiles/MemoryManager.dir/Allocator.cpp.o" \
+"CMakeFiles/MemoryManager.dir/BestFit.cpp.o" \
+"CMakeFiles/MemoryManager.dir/FirstFit.cpp.o"
 
 # External object files for target MemoryManager
 MemoryManager_EXTERNAL_OBJECTS =
@@ -108,9 +150,12 @@ MemoryManager_EXTERNAL_OBJECTS =
 MemoryManager: CMakeFiles/MemoryManager.dir/main.cpp.o
 MemoryManager: CMakeFiles/MemoryManager.dir/algoNew.cpp.o
 MemoryManager: CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.o
+MemoryManager: CMakeFiles/MemoryManager.dir/Allocator.cpp.o
+MemoryManager: CMakeFiles/MemoryManager.dir/BestFit.cpp.o
+MemoryManager: CMakeFiles/MemoryManager.dir/FirstFit.cpp.o
 MemoryManager: CMakeFiles/MemoryManager.dir/build.make
 MemoryManager: CMakeFiles/MemoryManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MemoryManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MemoryManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MemoryManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

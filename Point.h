@@ -30,7 +30,7 @@ public:
         cout << "Allocating Point with new: " << numBytes << " bytes." << endl;
         return malloc(numBytes);
         //return ::new Point;
-t
+
     }
 
     void operator delete(void* ptr) {

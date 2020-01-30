@@ -123,6 +123,60 @@ MemoryManager/fast:
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/build
 .PHONY : MemoryManager/fast
 
+Allocator.o: Allocator.cpp.o
+
+.PHONY : Allocator.o
+
+# target to build an object file
+Allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/Allocator.cpp.o
+.PHONY : Allocator.cpp.o
+
+Allocator.i: Allocator.cpp.i
+
+.PHONY : Allocator.i
+
+# target to preprocess a source file
+Allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/Allocator.cpp.i
+.PHONY : Allocator.cpp.i
+
+Allocator.s: Allocator.cpp.s
+
+.PHONY : Allocator.s
+
+# target to generate assembly for a file
+Allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/Allocator.cpp.s
+.PHONY : Allocator.cpp.s
+
+BestFit.o: BestFit.cpp.o
+
+.PHONY : BestFit.o
+
+# target to build an object file
+BestFit.cpp.o:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/BestFit.cpp.o
+.PHONY : BestFit.cpp.o
+
+BestFit.i: BestFit.cpp.i
+
+.PHONY : BestFit.i
+
+# target to preprocess a source file
+BestFit.cpp.i:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/BestFit.cpp.i
+.PHONY : BestFit.cpp.i
+
+BestFit.s: BestFit.cpp.s
+
+.PHONY : BestFit.s
+
+# target to generate assembly for a file
+BestFit.cpp.s:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/BestFit.cpp.s
+.PHONY : BestFit.cpp.s
+
 CustomMemoryManager.o: CustomMemoryManager.cpp.o
 
 .PHONY : CustomMemoryManager.o
@@ -149,6 +203,33 @@ CustomMemoryManager.s: CustomMemoryManager.cpp.s
 CustomMemoryManager.cpp.s:
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/CustomMemoryManager.cpp.s
 .PHONY : CustomMemoryManager.cpp.s
+
+FirstFit.o: FirstFit.cpp.o
+
+.PHONY : FirstFit.o
+
+# target to build an object file
+FirstFit.cpp.o:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/FirstFit.cpp.o
+.PHONY : FirstFit.cpp.o
+
+FirstFit.i: FirstFit.cpp.i
+
+.PHONY : FirstFit.i
+
+# target to preprocess a source file
+FirstFit.cpp.i:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/FirstFit.cpp.i
+.PHONY : FirstFit.cpp.i
+
+FirstFit.s: FirstFit.cpp.s
+
+.PHONY : FirstFit.s
+
+# target to generate assembly for a file
+FirstFit.cpp.s:
+	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/FirstFit.cpp.s
+.PHONY : FirstFit.cpp.s
 
 algoNew.o: algoNew.cpp.o
 
@@ -213,9 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MemoryManager"
+	@echo "... Allocator.o"
+	@echo "... Allocator.i"
+	@echo "... Allocator.s"
+	@echo "... BestFit.o"
+	@echo "... BestFit.i"
+	@echo "... BestFit.s"
 	@echo "... CustomMemoryManager.o"
 	@echo "... CustomMemoryManager.i"
 	@echo "... CustomMemoryManager.s"
+	@echo "... FirstFit.o"
+	@echo "... FirstFit.i"
+	@echo "... FirstFit.s"
 	@echo "... algoNew.o"
 	@echo "... algoNew.i"
 	@echo "... algoNew.s"

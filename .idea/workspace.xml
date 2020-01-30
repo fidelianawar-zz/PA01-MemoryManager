@@ -11,7 +11,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1f819a7-d288-45af-ab9b-7f3690fa31ef" name="Default Changelist" comment="" />
+    <list default="true" id="f1f819a7-d288-45af-ab9b-7f3690fa31ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Allocator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestFit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestFit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstFit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstFit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/Point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoNew.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algoNew.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoNew.h" beforeDir="false" afterPath="$PROJECT_DIR$/algoNew.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MemoryManager.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MemoryManager.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MemoryManager.cbp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +44,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X5P4xuwVuEeQ9yUfziGSHS5BcC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,11 +87,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580332794280</updated>
-      <workItem from="1580332796170" duration="2414000" />
+      <workItem from="1580332796170" duration="8531000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="886" height="245" key="GridCell.Tab.0.bottom" timestamp="1580422830729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580422830729" />
+    <state width="886" height="245" key="GridCell.Tab.0.center" timestamp="1580422830727">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580422830727" />
+    <state width="886" height="245" key="GridCell.Tab.0.left" timestamp="1580422830726">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580422830726" />
+    <state width="886" height="245" key="GridCell.Tab.0.right" timestamp="1580422830728">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580422830728" />
   </component>
 </project>

@@ -5,6 +5,10 @@
 
 #ifndef MEMORYMANAGER_ALGONEW_H
 #define MEMORYMANAGER_ALGONEW_H
+
 void* operator new(size_t val);
+void* operator new[](size_t val);
 void operator delete(void* ptr) noexcept;
+void operator delete[](void* ptr) noexcept;
+
 #endif //MEMORYMANAGER_ALGONEW_H
