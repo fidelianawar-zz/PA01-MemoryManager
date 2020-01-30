@@ -53,11 +53,13 @@ CMAKE_BINARY_DIR = "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/PA01-MemoryManager.dir/all
 all: CMakeFiles/MemoryManager.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/PA01-MemoryManager.dir/clean
 clean: CMakeFiles/MemoryManager.dir/clean
 
 .PHONY : clean
@@ -66,6 +68,33 @@ clean: CMakeFiles/MemoryManager.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/PA01-MemoryManager.dir
+
+# All Build rule for target.
+CMakeFiles/PA01-MemoryManager.dir/all:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/depend
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" --progress-num=8,9 "Built target PA01-MemoryManager"
+.PHONY : CMakeFiles/PA01-MemoryManager.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PA01-MemoryManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PA01-MemoryManager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/PA01-MemoryManager.dir/rule
+
+# Convenience name for target.
+PA01-MemoryManager: CMakeFiles/PA01-MemoryManager.dir/rule
+
+.PHONY : PA01-MemoryManager
+
+# clean rule for target.
+CMakeFiles/PA01-MemoryManager.dir/clean:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/clean
+.PHONY : CMakeFiles/PA01-MemoryManager.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MemoryManager.dir

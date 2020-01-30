@@ -1,3 +1,4 @@
 /Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/PA01-MemoryManager.dir
 /Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/cmake-build-debug/CMakeFiles/MemoryManager.dir

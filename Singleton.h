@@ -8,8 +8,6 @@
 #include <iostream>
 #include "Allocator.h"
 
-using namespace std;
-
 class Singleton {
 
     private:

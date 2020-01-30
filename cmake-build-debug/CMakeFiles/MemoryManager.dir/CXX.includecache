@@ -6,29 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
-cstddef
--
-iostream
--
-algoNew.h
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.cpp
+Allocator.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.h
 
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/SpecialPoint.h
-Point.h
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.h
 
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
-cstddef
--
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.cpp
+BestFit.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.h
 
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/main.cpp
-iostream
--
-algoNew.h
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/algoNew.h
-Point.h
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Point.h
-SpecialPoint.h
-/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/SpecialPoint.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/BestFit.h
+Allocator.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.h
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.cpp
+FirstFit.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.h
+
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/FirstFit.h
+Allocator.h
+/Users/fidelianawar/Desktop/Spring 2020/CS3353 - Algorithms/Program1/Allocator.h
 

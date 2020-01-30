@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PA01-MemoryManager
+
+# Build rule for target.
+PA01-MemoryManager: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PA01-MemoryManager
+.PHONY : PA01-MemoryManager
+
+# fast build rule for target.
+PA01-MemoryManager/fast:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/build
+.PHONY : PA01-MemoryManager/fast
+
+#=============================================================================
 # Target rules for targets named MemoryManager
 
 # Build rule for target.
@@ -264,6 +277,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -273,6 +287,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -282,6 +297,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/PA01-MemoryManager.dir/build.make CMakeFiles/PA01-MemoryManager.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/MemoryManager.dir/build.make CMakeFiles/MemoryManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -293,6 +309,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... PA01-MemoryManager"
 	@echo "... MemoryManager"
 	@echo "... Allocator.o"
 	@echo "... Allocator.i"
